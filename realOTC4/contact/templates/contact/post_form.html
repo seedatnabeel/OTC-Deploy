@@ -1,0 +1,21 @@
+{% extends 'symptoms/base.html' %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+{% block body %}
+
+<h1>Contact Us</h1>
+<form method='POST' action='' method="post">
+    {%  csrf_token %}
+    {{ form.as_p }}
+    <input type='submit' value='Give us feedback'/>
+</form>
+
+{% endblock %}
+</body>
+
+</html>
+

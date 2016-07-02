@@ -1,0 +1,23 @@
+{% extends 'symptoms/base.html' %}
+
+{% block body %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+<h1>Symptoms Page</h1>
+<form method="post" >{% csrf_token %}
+<input type='checkbox' name="checks[]" value="s_102"> Cough </br>
+<input type='checkbox' name="checks[]" value="s_107"> Runny Nose </br>
+<input type='checkbox' name="checks[]" value="s_331"> Nasal Congestion </br>
+<input type='checkbox' name="checks[]" value="s_98"> Fever </br>
+<input type='submit' value='Submit' />
+
+
+
+</body>
+
+</html>
+
+{% endblock %}
