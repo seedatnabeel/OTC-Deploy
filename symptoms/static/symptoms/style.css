@@ -1,0 +1,36 @@
+/*
+li a {
+    color: green;
+} */
+/*
+body{
+    height: 100%; width: 100;
+
+    background: white url("images/back.jpg") no-repeat left top;
+}*/
+
+p {
+    border-style: solid;
+    border-left: thick double 15px;
+}
+
+.navbar-default .navbar-fnt{
+    color: white;
+}
+
+.navbar-default {
+    color: white;
+    background-color: #ffffff;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 150px;
+    height: 100px;
+    padding-top: 0;
+}
+
+a {
+    font-size: 16pt;
+    text-align: center;
+}
